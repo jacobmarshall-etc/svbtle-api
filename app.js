@@ -39,6 +39,11 @@ function handleError (res, err, data) {
     }
 }
 
+app.use(function (req, res, next) {
+    res.set('Access-Control-Allow-Origin', '*');
+    next();
+});
+
 app.get('/:username/latest', function (req, res) {
     //console.log(res);
     getRSSFeed(req.params.username, 1, function (err, data) {
