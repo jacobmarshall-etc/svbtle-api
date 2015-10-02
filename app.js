@@ -68,4 +68,8 @@ app.get('/:username/latest/:number', function (req, res) {
     });
 });
 
+app.get('/ping', function (req, res) {
+    res.send('pong');
+});
+
 app.listen(process.env.PORT);
