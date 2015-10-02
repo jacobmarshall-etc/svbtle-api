@@ -2,8 +2,8 @@
   "name": "heroku-svbtle-api",
   "author": "Jacob Marshall <jacob@manage.net.nz>",
   "dependencies": {
-    "express": "^4.13.0",
-    "parserss": "^0.2.0",
-    "to-markdown": "^1.2.1"
+    "express": "4.13.0",
+    "parserss": "0.2.0",
+    "to-markdown": "1.2.1"
   }
 }
