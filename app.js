@@ -72,4 +72,8 @@ app.get('/ping', function (req, res) {
     res.send('pong');
 });
 
+app.get('/example', function (req, res) {
+    res.send('Hello World');
+});
+
 app.listen(process.env.PORT);
